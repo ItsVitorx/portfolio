@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.corpo {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.github-icon {
+    font-size: 24px;
+    color: #fff;
+}
+
+.foto {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.foto h2 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.foto p {
+    font-size: 19.2px;
+    margin: 10px 0;
+}
+
+.sobre {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.sobre h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+}
